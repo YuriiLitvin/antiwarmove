@@ -31,3 +31,35 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: orange;
+}
+
+.logo {
+  background-color: violet;
+}
+
+.title {
+  background-color: blue;
+  align-self: center;
+
+}
+
+.navbar {
+  list-style-type: none;
+  background-color:blueviolet;
+  display: flex;
+  gap: 1vw;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.element-button {
+  background-color: aqua;
+}
