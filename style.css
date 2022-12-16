@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: green;
+  margin: 0 auto;
+  width: 800px;
+  height: 1000px;
+  border: 5px solid black;
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 830px) {
+  .container {
+    width: 99vw;
+  }
+}
