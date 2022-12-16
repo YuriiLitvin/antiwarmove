@@ -9,14 +9,14 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 800px;
+  width: 1000px;
   height: 1000px;
   border: 5px solid green;
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 1010px) {
   .container {
-    width: 99vw;
+    width: 100vw;
   }
 }
 
@@ -24,42 +24,56 @@ body {
   width: 100%;
   height: 600px;
   border: 2px solid red;
+  padding: 0 2vw;
 }
 
 #item-1 {
   background-image: url("../images/title-image.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .header {
   display: flex;
   align-items: center;
-  background-color: orange;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
-  background-color: violet;
+  width: 8rem;
 }
 
 .title {
-  background-color: blue;
-  align-self: center;
-
+  width: 17rem;
 }
 
-.navbar {
+.nav-items {
+  width: 23rem;
   list-style-type: none;
-  background-color:blueviolet;
   display: flex;
-  gap: 1vw;
+  justify-content: space-between;
+  padding: 0;
 }
 
 .nav-item a {
   color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
   text-decoration: none;
 }
 
-.element-button {
-  background-color: aqua;
+
+.header-dropdown {
+  color: white;
+  background-color: transparent;
+  font-size: 1rem;
+  border: none;
 }
