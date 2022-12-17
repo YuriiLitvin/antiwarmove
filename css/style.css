@@ -9,23 +9,18 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1000px;
-  height: 1000px;
+  max-width: 1000px;
+  height: auto;
   border: 5px solid green;
-}
-
-@media only screen and (max-width: 1010px) {
-  .container {
-    width: 100vw;
-  }
 }
 
 .box {
   width: 100%;
-  height: 600px;
+  height: auto;
   border: 2px solid red;
   padding: 0 2vw;
 }
+
 
 #block-1 {
   background-image: url("../images/hero.png");
@@ -82,7 +77,9 @@ body {
 }
 
 .article-1 {
-  background-color: orange;
+  /* background-color: orange; */
+  width: 45%;
+  margin-bottom: 2rem;
 }
 
 .article-1-title {
@@ -96,14 +93,66 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 1rem;
   line-height: 1.25rem;
-  display: flex;
+  text-align: justify;
+
 }
 
 .block-1-donate {
   width: 100%;
   text-align: left;
+  font-size: 0.9rem;
+  font-weight: 900;
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 1010px) {
+  .container {
+    width: 100vw;
+  }
+
+  .logo {
+    width: 12vw;
+  }
+  
+  .title {
+    width: 25vw;
+  }
+  
+  .nav-items {
+    width: 40vw;
+  }
+  
+  .nav-item a {
+    font-size: 2vw;
+  }
+  
+  .header-dropdown {
+    font-size: 2vw;
+  }
+  
+  .article-1 {
+    margin: 0 auto;
+  }
+  
+  .article-1-title {
+    font-size: 2vw;
+  }
+  
+  .article-1-content p {
+    font-size: 1.5vw;
+    line-height: 1.75vw;
+  }
+  
+  .block-1-donate {
+    font-size: 1.5vw;
+    padding: 1.5vw;
+  }
+
+  .block-1-donate img {
+    width: 1.5vw;
+  }
 }
