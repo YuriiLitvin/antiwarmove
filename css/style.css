@@ -66,7 +66,7 @@ body {
   color: white;
   font-size: 1rem;
   font-weight: bold;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   text-decoration: none;
 }
 
@@ -79,4 +79,31 @@ body {
 
 .option {
   color: black;
+}
+
+.article-1 {
+  background-color: orange;
+}
+
+.article-1-title {
+  color: white;
+  font-family: "Arimo", sans-serif;
+  font-weight: normal;
+}
+
+.article-1-content p {
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  display: flex;
+}
+
+.block-1-donate {
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
