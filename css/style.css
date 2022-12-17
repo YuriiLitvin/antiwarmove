@@ -27,8 +27,8 @@ body {
   padding: 0 2vw;
 }
 
-#item-1 {
-  background-image: url("../images/title-image.png");
+#block-1 {
+  background-image: url("../images/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -70,10 +70,13 @@ body {
   text-decoration: none;
 }
 
-
 .header-dropdown {
   color: white;
   background-color: transparent;
   font-size: 1rem;
   border: none;
+}
+
+.option {
+  color: black;
 }
