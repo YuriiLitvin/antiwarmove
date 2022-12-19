@@ -159,7 +159,7 @@ body {
 /* ---------------------------------------------- */
 
 #block-2 {
-  height: 600px;
+  height: 65vh;
   background-color: #0057B8;
   background-image: url("../images/image_awm_desc.png");
   background-repeat: no-repeat;
@@ -182,12 +182,34 @@ body {
   margin: -3rem;
 }
 
+.column {
+  margin-top: 1rem;
+}
+
 .column-2 p{
   width: 70%;
-  margin: 0 auto;
-  background-color: green;
+  margin: 3rem auto;
+  font-family: "Arial", sans-serif;
 }
 
 .white {
-  /* margin */
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  /* font-weight: 100; */
+  text-align: justify;
+  /* transform: scaleY(1.1); */
+  /* padding-top: 2rem 0; */
+  /* background-color: green; */
+}
+
+.black {
+  background-color: white;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  font-weight: 700;
+  padding: 0 1.5rem;
+  text-transform: uppercase;
+  margin-top: 4rem;
 }
