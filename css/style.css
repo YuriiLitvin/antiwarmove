@@ -77,7 +77,6 @@ body {
 }
 
 .article-1 {
-  /* background-color: orange; */
   width: 45%;
   margin-bottom: 2rem;
 }
@@ -155,4 +154,40 @@ body {
   .block-1-donate img {
     width: 1.5vw;
   }
+}
+
+/* ---------------------------------------------- */
+
+#block-2 {
+  height: 600px;
+  background-color: #0057B8;
+  background-image: url("../images/image_awm_desc.png");
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  display: flex;
+  padding: 0;
+}
+
+.column {
+  width: 50%;
+  height: 100%;
+}
+
+.column-1 img{
+  width: 50%;
+  position: relative;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -100%);
+  margin: -3rem;
+}
+
+.column-2 p{
+  width: 70%;
+  margin: 0 auto;
+  background-color: green;
+}
+
+.white {
+  /* margin */
 }
