@@ -213,3 +213,45 @@ body {
 #block-3 {
   background-color: #FFD700;
 }
+
+.block-3-title,
+.block-3-subtitle {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+.block-3-title {
+  /* some styling here */
+}
+
+.block-3-subtitle {
+  /* some styling here */
+}
+
+.safe-place,
+.safe-place-button {
+  background-color: white;
+}
+
+.safe-place-img{
+  width: 100%;
+}
+
+.safe-place-content {
+  margin: 0 0 0.2rem;
+  text-align: justify;
+}
+
+.safe-place-button {
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  border-radius: 0 0 0.5rem 0.5rem;
+  margin-bottom: 2rem;
+}
+/* .safe-place-link {
+  width: 100%;
+  padding: 1rem;
+} */
