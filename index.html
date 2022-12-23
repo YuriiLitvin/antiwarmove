@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Antiwar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container">
+    <div class="app-container">
 
       <div id="block-1" class="box">
         <div class="header">
@@ -124,8 +127,55 @@
         </div>
       </div>
 
+      <div id="projects" class="box">
+        <div class="projects--article">
+          <div class="projects--column">
+            <p class="projects--appreciation">
+              Ми вдячні кожній компанії, підприємству та звичайним людям,
+               які допомагають Україні з конкретними потребами
+            </p>
+            <a class="projects--show-all" href="">ПОКАЗАТИ ВСІ НАГАЛЬНІ ПОТРЕБИ</a>
+          </div>
+          <div class="projects--column">
+            <p>
+              Зробити донат через Антивоєнний рух України дуже просто – декілька 
+              кліків з будь-якої точки світу. Якщо є можливість надіслати 
+              гуманітарну допомогу – зверніться до нас за контактами, які вказані
+               нижче.
+            </p>
+          </div>
+        </div>
+        <div 
+            id="carouselExampleControls" 
+            class="carousel slide" 
+            data-ride="false"
+            >
+          <div class="carousel-inner">
+            <div class="carousel-item item1 active">
+              <img class="d-block w-100" src="images/projects/Borodyanka_center.jpeg.png" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="caption--title">Лікарня у Бахмуті</h5>
+                <p class="caption--content"><span>Збір:</span> 1 000 000 грн</p>
+              </div>
+            </div>
+            <div class="carousel-item item2">
+              <img class="d-block w-100" src="images/projects/obstril-1.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item item3">
+              <img class="d-block w-100" src="images/projects/obstril-likarni.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev control" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next control" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+        
+        
+      </div>
 
-      <div id="block-4" class="box"></div>
       <div id="block-5" class="box"></div>
     </div>
 
