@@ -308,7 +308,7 @@ a:hover {
 
 .projects--article {
   display: flex;
-  width: 80%;
+  /* width: 80%; */
   margin: 2rem auto 0;
 }
 
@@ -330,13 +330,13 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.carousel-inner {
+/* .carousel-inner {
   width: 80%;
   margin: 0 auto;
-}
+} */
 
 .w-100 {
-  height: 400px;
+  height: 35rem;
 }
 
 .carousel-caption {
@@ -354,7 +354,7 @@ a:hover {
   font-weight: 400;
 }
 
-.control {
+/* .control {
   width: 10%;
   background-color: none;
-}
+} */
