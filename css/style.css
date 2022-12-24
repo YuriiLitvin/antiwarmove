@@ -330,11 +330,6 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-/* .carousel-inner {
-  width: 80%;
-  margin: 0 auto;
-} */
-
 .w-100 {
   height: 35rem;
 }
@@ -354,7 +349,41 @@ a:hover {
   font-weight: 400;
 }
 
-/* .control {
-  width: 10%;
-  background-color: none;
-} */
+#news {
+  background-color: white;
+  font-family: "Arial";
+}
+
+.news--container {
+  margin: 3rem 0 5rem;
+}
+
+#news ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+#news li {
+  border-top: 1px solid black;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  margin-bottom: 4rem;
+}
+
+.news--date {
+  font-size: 0.8rem;
+  margin-right: 2rem;
+}
+
+.news--show-all {
+  color: white;
+  background-color: black;
+  padding: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.news--show-all img {
+  margin-left: 10rem;
+}
