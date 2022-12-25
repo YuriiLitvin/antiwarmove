@@ -257,7 +257,7 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.subscription-form {
+.subscription-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -266,11 +266,16 @@ a:hover {
   /* background-color: red; */
 }
 
+.subscription {
+  display: flex;
+}
+
 .safe-place--email {
   background-color: transparent;
   border: none;
   border-bottom: 2px solid black;
-  padding: 1rem 0;
+  padding: 1rem 0 0;
+  margin-right: 0.5rem;
 }
 
 .safe-place--email::placeholder {
@@ -285,7 +290,7 @@ a:hover {
   background-color: white;
   border: none;
   width: 10rem;
-  padding: 1rem 0;
+  padding: 0.9rem 0;
   font-family: "Arial";
   font-size: 0.8rem;
   font-weight: bold;
@@ -294,11 +299,11 @@ a:hover {
 
 .safe-place--messengers {
   display: flex;
-  /* justify-content: space-between; */
-  gap: 1rem;
-  /* margin: 0 1rem;   */
+  gap: 0.5rem;
 }
 
+
+/* -----------PROJECTS--------- */
 #projects {
   background-color: #A9BEC2;
 }
