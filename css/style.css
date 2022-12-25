@@ -20,15 +20,14 @@ a:hover {
 .app-container {
   margin: 0 auto;
   max-width: 1000px;
-  height: auto;
-  border: 5px solid green;
+  /* height: auto; */
+  min-height: 500px;
 }
 
 .box {
   width: 100%;
   height: auto;
-  border: 2px solid red;
-  padding: 0 2vw;
+  padding: 2rem 2vw 3rem;
 }
 
 
