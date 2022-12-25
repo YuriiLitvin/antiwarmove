@@ -482,3 +482,9 @@ a:hover {
 #contacts .safe-place--email::placeholder {
   color: white;
 }
+
+footer {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Arial;
+  font-size: 0.9rem;
+}
